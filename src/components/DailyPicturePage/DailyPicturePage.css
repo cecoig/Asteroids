@@ -1,0 +1,14 @@
+.page.picture {
+  min-width: 0;
+  padding: 1rem;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+.page .center {
+  text-align: center;
+}
+.page .justify {
+  width: 100%;
+  text-align: justify;
+  margin: auto;
+}

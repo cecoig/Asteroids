@@ -1,0 +1,30 @@
+header {
+  border-bottom: 1px solid black;
+}
+header .logo {
+  display: inline-block;
+  height: 100%;
+  width: 30%;
+  padding-left: 2rem;
+  box-sizing: border-box;
+}
+header nav {
+  display: inline-block;
+  width: 70%;
+  height: 100%;
+}
+@media only screen and (max-width: 700px) {
+  body {
+    --header-height: calc(8*var(--font-size));
+  }
+  header .logo {
+    display: block;
+    height: 40%;
+    width: 100%;
+  }
+  header nav {
+    display: block;
+    width: 100%;
+    height: 60%;
+  }
+}

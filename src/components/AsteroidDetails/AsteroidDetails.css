@@ -1,0 +1,22 @@
+.asteroid-details a {
+  display: none;
+  margin: 2rem;
+}
+.asteroid-details table {
+  margin: 3rem auto 0 auto;
+  width: 90%;
+  border-spacing: 1rem;
+  border-collapse: separate;
+}
+.asteroid-details table thead th {
+  text-align: center;
+}
+.asteroid-details table td:nth-of-type(odd) {
+  text-align: right;
+  width: 60%;
+  font-style: italic;
+}
+.asteroid-details table td:nth-of-type(even) {
+  text-align: left;
+  width: 40%;
+}

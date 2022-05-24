@@ -1,0 +1,39 @@
+.page {
+
+    --sidebar-width: 40%;
+
+    aside {
+        display       : inline-block;
+        width         : var(--sidebar-width);
+        vertical-align: top;
+
+        .loading {
+            margin-top: 5rem;
+        }
+    }
+
+    section {
+        display: inline-block;
+        width  : calc(100% - var(--sidebar-width));
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .page {
+        aside {
+            display: none;
+
+            &.active {
+                display: inline-block;
+                width  : 100%;
+            }
+        }
+
+        .asteroid-details {
+            width: 100%;
+            a {
+                display: inherit;
+            }
+        }
+    }
+}
